@@ -81,14 +81,14 @@ This backend includes a modular architecture with Users, Vendors, Stores, Produc
 ## 📁 Project Structure
 
 src/
--controllers/
--routes/
--models/
--database/
--scripts/
--middlewares/
--server.js
-**
+├── controllers/ # Route controllers
+├── routes/ # Express route definitions
+├── models/ # Database models (e.g., Mongoose schemas)
+├── database/ # Database connection and configuration
+├── scripts/ # Utility or setup scripts
+├── middlewares/ # Express middlewares (auth, validation, etc.)
+└── server.js # Entry point of the application
+
 
 -Dockerfile
 -docker-compose.yml
