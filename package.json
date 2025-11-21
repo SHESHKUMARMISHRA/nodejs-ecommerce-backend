@@ -10,7 +10,7 @@
     "debug": "nodemon --inspect=9229 ./bin/www"
   },
   "dependencies": {
-    "express": "4.21.1",
+    "express": "4.21.2",
     "sequelize": "6.37.1",
     "sqlite3": "5.1.7",
     "dotenv": "16.4.5",
