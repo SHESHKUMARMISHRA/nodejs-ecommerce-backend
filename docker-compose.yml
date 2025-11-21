@@ -1,0 +1,25 @@
+version: "3.8"
+
+services:
+  app:
+    build: .
+    ports:
+      - "3000:3000"
+      - "9229:9229"
+    environment:
+      - NODE_ENV=development
+      - PORT=3000
+      - DB_DIALECT=sqlite
+      - DB_STORAGE=/usr/src/app/src/database/database.sqlite
+      - JWT_SECRET=your_jwt_secret_here
+      - TOKEN_EXPIRES_IN=7d
+    volumes:
+      - ./:/usr/src/app
+      - /usr/src/app/node_modules
+    command: |
+      sh -c "
+        rm -f /usr/src/app/src/database/database.sqlite &&
+        node src/scripts/migrate.js &&
+        node src/scripts/seed.js &&
+        node --inspect=0.0.0.0:9229 src/server.js
+      "
