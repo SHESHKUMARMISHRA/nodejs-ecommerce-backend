@@ -81,16 +81,17 @@ This backend includes a modular architecture with Users, Vendors, Stores, Produc
 ## 📁 Project Structure
 
 src/
-controllers/
-routes/
-models/
-database/
-scripts/
-middlewares/
-server.js
+-controllers/
+-routes/
+-models/
+-database/
+-scripts/
+-middlewares/
+-server.js
+**
 
-Dockerfile
-docker-compose.yml
+-Dockerfile
+-docker-compose.yml
 
 
 ---
