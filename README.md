@@ -11,6 +11,29 @@
   A modern, production-ready E-Commerce API powered by Node.js, Express, Sequelize ORM, SQLite, JWT Authentication, and Docker.
 </p>
 
+## 📦 About This Project
+
+This repository contains a **production-grade E-Commerce Backend API**, designed with clean architecture and modern backend engineering practices.  
+It demonstrates real-world development skills for scalable API systems:
+
+### 🔥 Key highlights:
+- **Node.js + Express** REST API with modular architecture  
+- **Sequelize ORM** with migrations + seeders  
+- **SQLite** for lightweight local development  
+- **JWT Authentication** with hashed passwords (bcryptjs)  
+- **Role-based access** (Admin, Vendor)  
+- **Vendor module**: vendor → store → products → SKUs  
+- **Docker-ready** (containerized environment)  
+- **VSCode Debugger auto-attach** support  
+- Clean folder structure following industry best practices  
+
+This project is ideal for:
+- Recruiters evaluating backend skills  
+- Developers reviewing clean Node.js architecture  
+- Portfolio showcase for full-stack or backend engineering roles  
+- Beginners learning real-world Express + Sequelize development  
+
+
 
 # 🛒 E-Commerce Backend (Node.js + Express + Sequelize + SQLite + Docker)
 
@@ -187,5 +210,5 @@ I'd love to connect!
 
 **Shesh Kumar Mishra**
 📧 Email: mishrakshesh14287@gmail.com
-💼 LinkedIn: 
-🌐 Portfolio: your portfolio URL
+💼 LinkedIn: https://www.linkedin.com/in/sheshmishra/
+🌐 Portfolio:https://github.com/SHESHKUMARMISHRA
